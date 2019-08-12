@@ -27,22 +27,22 @@ We've provided you with a console that you can use to test your code. To enter a
 
 #### Build the following methods on the `Startup` class
 
-- `Startup#name`
+<!-- - `Startup#name`
   - returns a **string** that is the startup's name
 - `Startup#founder`
   - returns a **string** that is the founder's name
-  - Once a startup is created, the founder cannot be changed.
-- `Startup#domain`
+  - Once a startup is created, the founder cannot be changed. -->
+<!-- - `Startup#domain`
   - returns a **string** that is the startup's domain
-  - Once a startup is created, the domain cannot be changed (ie. A developer working with instances of the Startup class cannot directly change the domain)
-- `Startup#pivot`
-  - given a string of a **domain** and a string of a **name**, change the domain and name of the startup. This is the only public method through which the domain can be changed.
-- `Startup.all`
-  - should return **all** of the startup instances
-- `Startup.find_by_founder`
-  - given a string of a **founder's name**, returns the **first startup** whose founder's name matches
-- `Startup.domains`
-  - should return an **array** of all of the different startup domains
+  - Once a startup is created, the domain cannot be changed (ie. A developer working with instances of the Startup class cannot directly change the domain) -->
+<!-- - `Startup#pivot`
+  - given a string of a **domain** and a string of a **name**, change the domain and name of the startup. This is the only public method through which the domain can be changed. -->
+<!-- - `Startup.all`
+  - should return **all** of the startup instances -->
+<!-- - `Startup.find_by_founder`
+  - given a string of a **founder's name**, returns the **first startup** whose founder's name matches -->
+<!-- - `Startup.domains`
+  - should return an **array** of all of the different startup domains -->
 
 ---
 
